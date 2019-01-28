@@ -33,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/repository/MuzixRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -180,7 +180,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="683" height="743" extended-state="4" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.51648355" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -240,7 +239,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/repository/MuzixRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
