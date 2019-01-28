@@ -3,7 +3,6 @@
  */
 package com.stackroute.config;
 
-import org.h2.server.web.WebServlet;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -17,7 +16,6 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
-import static jdk.internal.joptsimple.util.RegexMatcher.regex;
 import static springfox.documentation.builders.PathSelectors.regex;
 
 @EnableSwagger2
@@ -53,10 +51,10 @@ public class WebConfiguration extends WebMvcConfigurationSupport {
     }
 
     //Created a bean here
-    @Bean
-    ServletRegistrationBean h2servletRegistration(){
-        ServletRegistrationBean registrationBean=new ServletRegistrationBean(new WebServlet());
-        registrationBean.addUrlMappings("/console/*");
-        return registrationBean;
-    }
+//    @Bean
+//    ServletRegistrationBean h2servletRegistration(){
+//        ServletRegistrationBean registrationBean=new ServletRegistrationBean(new WebServlet());
+//        registrationBean.addUrlMappings("/console/*");
+//        return registrationBean;
+//    }
 }
