@@ -11,5 +11,6 @@
     <orderEntry type="module" module-name="muzixapplication" />
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:5.1.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.1.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: io.swagger:swagger-annotations:1.5.14" level="project" />
   </component>
 </module>
