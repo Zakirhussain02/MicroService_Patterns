@@ -6,6 +6,10 @@ import com.stackroute.exceptions.UserNotFoundException;
 import com.stackroute.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import javax.xml.crypto.Data;
+import java.time.LocalDate;
+import java.time.Period;
+import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 
@@ -48,26 +52,38 @@ public class UserServiceImpl implements UserService{
     }
 
     @Override
-    public List<User> removeUser(int trackId) throws UserNotFoundException {
-        if(!userRepository.existsById(trackId)){
+    public List<User> removeUser(int userId) throws UserNotFoundException {
+        if(!userRepository.existsById(userId)){
             throw new UserNotFoundException("User not found");
         }
-        userRepository.deleteById(trackId);
+        userRepository.deleteById(userId);
         return userRepository.findAll();
     }
 
     @Override
-    public User getByUserId(int trackId) throws UserNotFoundException {
-        if (userRepository.findById(trackId).isEmpty()) {
+    public User getByUserId(int userId) throws UserNotFoundException {
+        if (userRepository.findById(userId).isEmpty()) {
             throw new UserNotFoundException("User not found to update");
         }
-        Optional<User> user1 = userRepository.findById(trackId);
+        Optional<User> user1 = userRepository.findById(userId);
         User user = user1.get();
         return user;
     }
 
     @Override
     public Boolean validUserAge(int userId) throws UserNotFoundException {
-        return null;
+        if (userRepository.findById(userId).isEmpty()) {
+            throw new UserNotFoundException("User not found to update");
+        }
+        Optional<User> user1 = userRepository.findById(userId);
+        User user =user1.get();
+        LocalDate today = LocalDate.now();
+        Period period = Period.between(user.getUserDOB(), today);
+        if (period.getYears()>=18){
+            return true;
+        }
+        else {
+            return false;
+        }
     }
 }
