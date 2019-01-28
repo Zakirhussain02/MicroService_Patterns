@@ -63,9 +63,9 @@ public class UserController extends ResponseEntityExceptionHandler {
         return new ResponseEntity (userService.getByUserId(userId), HttpStatus.OK);
     }
     //Mehtod to User by NAME
-    @GetMapping("Users/{trackName}")
-    public ResponseEntity<?> getByUserName(@PathVariable String userName) throws UserNotFoundException {
-        return new ResponseEntity <String>("User Name is identified", HttpStatus.FOUND);
+    @GetMapping("Users/{trackAge}")
+    public ResponseEntity<?> validUserAge(@PathVariable int userId) throws UserNotFoundException {
+        return new ResponseEntity <Boolean>(userService.validUserAge(userId), HttpStatus.FOUND);
     }
 
 }
