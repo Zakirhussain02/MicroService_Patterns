@@ -7,10 +7,10 @@ import com.stackroute.exceptions.UserNotFoundException;
 import java.util.List;
 
 public interface UserService {
-    public User saveMuzix(User muzix)throws UserAlreadyExistsException;
-    public List<User> getAllMuzixs()throws UserNotFoundException;
-    public User updateMuzix(int trackId,String comment)throws UserNotFoundException;
-    public List<User> removeMuzix(int trackId) throws UserNotFoundException;
-    public User trackByTrackId(int trackId) throws UserNotFoundException;
-    public List<User> trackByTrackName(String trackName)throws UserNotFoundException;
+    public User saveUser(User muzix)throws UserAlreadyExistsException;
+    public List<User> getAllUsers()throws UserNotFoundException;
+    public User updateUser(int trackId,String comment)throws UserNotFoundException;
+    public List<User> removeUser(int trackId) throws UserNotFoundException;
+    public User getByUserId(int trackId) throws UserNotFoundException;
+    public List<User> getByUserName(String trackName)throws UserNotFoundException;
 }
