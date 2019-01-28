@@ -1,0 +1,9 @@
+/home/user/Desktop/MicroServices/UserService/src/main/java/com/stackroute/exceptions/UserAlreadyExistsException.java
+/home/user/Desktop/MicroServices/UserService/src/main/java/com/stackroute/service/UserService.java
+/home/user/Desktop/MicroServices/UserService/src/main/java/com/stackroute/exceptions/GlobalExceptions.java
+/home/user/Desktop/MicroServices/UserService/src/main/java/com/stackroute/config/WebConfiguration.java
+/home/user/Desktop/MicroServices/UserService/src/main/java/com/stackroute/service/UserServiceImpl.java
+/home/user/Desktop/MicroServices/UserService/src/main/java/com/stackroute/repository/UserRepository.java
+/home/user/Desktop/MicroServices/UserService/src/main/java/com/stackroute/domain/User.java
+/home/user/Desktop/MicroServices/UserService/src/main/java/com/stackroute/exceptions/UserNotFoundException.java
+/home/user/Desktop/MicroServices/UserService/src/main/java/com/stackroute/controller/UserController.java
