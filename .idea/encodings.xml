@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$/TrackServices" charset="UTF-8" />
   </component>
+=======
+  <component name="Encoding" addBOMForNewFiles="with NO BOM" />
+>>>>>>> 88fc3975dec0e715bc4bfcb616aa45c9b45f35c7
 </project>

@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="60a036b8-18dc-4f9c-87cc-d322369a6424" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/stackroute/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/stackroute/controller/UserController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/TrackServices/target/" />
+=======
+    <list default="true" id="f225b38f-8525-40ac-a37c-03439118a1bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/com/stackroute/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrackServices/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TrackServices/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrackServices/src/main/java/com/stackroute/repository/MuzixRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/TrackServices/src/main/java/com/stackroute/repository/MuzixRepository.java" afterDir="false" />
+    </list>
+>>>>>>> 88fc3975dec0e715bc4bfcb616aa45c9b45f35c7
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +25,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/TrackServices/src/main/java/com/stackroute/config/WebConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -34,11 +45,18 @@
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/UserService/src/main/java/com/stackroute/repository/UserRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+>>>>>>> 88fc3975dec0e715bc4bfcb616aa45c9b45f35c7
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/UserService/src/main/java/com/stackroute/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="12">
@@ -69,12 +87,22 @@
               <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
+=======
+        <entry file="file://$PROJECT_DIR$/TrackServices/src/main/java/com/stackroute/repository/MuzixRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+>>>>>>> 88fc3975dec0e715bc4bfcb616aa45c9b45f35c7
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/TrackServices/src/main/java/com/stackroute/controller/MuzixController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -97,11 +125,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+=======
+        <entry file="file://$PROJECT_DIR$/TrackServices/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+>>>>>>> 88fc3975dec0e715bc4bfcb616aa45c9b45f35c7
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/UserService/src/main/java/com/stackroute/exceptions/UserNotFoundException.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
@@ -115,6 +150,12 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="17" selection-start-line="17" selection-end-line="17" />
+=======
+        <entry file="file://$PROJECT_DIR$/UserService/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+>>>>>>> 88fc3975dec0e715bc4bfcb616aa45c9b45f35c7
             </state>
           </provider>
         </entry>
@@ -130,11 +171,16 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+<<<<<<< HEAD
       <find>Muzix</find>
     </findStrings>
     <replaceStrings>
       <replace>User</replace>
     </replaceStrings>
+=======
+      <find>mongo</find>
+    </findStrings>
+>>>>>>> 88fc3975dec0e715bc4bfcb616aa45c9b45f35c7
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -142,6 +188,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/UserService/src/main/java/com/stackroute/exceptions/UserNotFoundException.java" />
         <option value="$PROJECT_DIR$/UserService/src/main/java/com/stackroute/exceptions/UserAlreadyExistsException.java" />
         <option value="$PROJECT_DIR$/UserService/src/main/java/com/stackroute/exceptions/GlobalExceptions.java" />
@@ -325,6 +372,166 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="stackroute" type="462c0819:PsiDirectoryNode" />
               <item name="exceptions" type="462c0819:PsiDirectoryNode" />
+=======
+        <option value="$PROJECT_DIR$/UserService/pom.xml" />
+        <option value="$PROJECT_DIR$/UserService/src/main/java/com/stackroute/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/TrackServices/pom.xml" />
+        <option value="$PROJECT_DIR$/TrackServices/src/main/java/com/stackroute/repository/MuzixRepository.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="1299" />
+    <option name="height" value="743" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="microServices" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="microServices" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="microServices" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="microServices" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="TrackServices" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="microServices" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="microServices" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="TrackServices" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="microServices" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="microServices" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="TrackServices" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="microServices" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="microServices" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="TrackServices" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="microServices" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="microServices" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="TrackServices" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="microServices" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="microServices" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="TrackServices" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="stackroute" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="microServices" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="microServices" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="TrackServices" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="stackroute" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="repository" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="microServices" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="microServices" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="UserService" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="microServices" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="microServices" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="UserService" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="microServices" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="microServices" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="UserService" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="microServices" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="microServices" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="UserService" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="microServices" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="microServices" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="UserService" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="microServices" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="microServices" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="UserService" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="stackroute" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="microServices" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="microServices" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="UserService" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="stackroute" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="repository" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="microServices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microServices" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microServices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microServices" type="462c0819:PsiDirectoryNode" />
+              <item name="TrackServices" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microServices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microServices" type="462c0819:PsiDirectoryNode" />
+              <item name="UserService" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 88fc3975dec0e715bc4bfcb616aa45c9b45f35c7
             </path>
           </expand>
           <select />
@@ -333,11 +540,17 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548661071059" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/TrackServices/pom.xml" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548659889891" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+>>>>>>> 88fc3975dec0e715bc4bfcb616aa45c9b45f35c7
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -356,6 +569,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="60a036b8-18dc-4f9c-87cc-d322369a6424" name="Default Changelist" comment="" />
       <created>1548659003546</created>
       <option name="number" value="Default" />
@@ -384,21 +598,41 @@
       <updated>1548661044181</updated>
     </task>
     <option name="localTasksCounter" value="4" />
+=======
+      <changelist id="f225b38f-8525-40ac-a37c-03439118a1bb" name="Default Changelist" comment="" />
+      <created>1548659094481</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548659094481</updated>
+    </task>
+>>>>>>> 88fc3975dec0e715bc4bfcb616aa45c9b45f35c7
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+<<<<<<< HEAD
+=======
+    <editor active="true" />
+>>>>>>> 88fc3975dec0e715bc4bfcb616aa45c9b45f35c7
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24980047" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" weight="0.32899022" />
       <window_info anchor="bottom" id="Terminal" sideWeight="0.49960095" visible="true" weight="0.32899022" />
       <window_info active="true" anchor="bottom" id="Event Log" sideWeight="0.50039905" side_tool="true" visible="true" weight="0.32899022" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980047" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32899022" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+>>>>>>> 88fc3975dec0e715bc4bfcb616aa45c9b45f35c7
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -408,13 +642,20 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Theme Preview" />
+<<<<<<< HEAD
       <window_info anchor="right" id="Maven" weight="0.32960895" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Palette&#9;" />
+=======
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Maven" />
+>>>>>>> 88fc3975dec0e715bc4bfcb616aa45c9b45f35c7
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+<<<<<<< HEAD
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Exceptions" />
@@ -476,11 +717,47 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+=======
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24980047" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Run" order="5" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/UserService/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+>>>>>>> 88fc3975dec0e715bc4bfcb616aa45c9b45f35c7
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/UserService/src/main/java/com/stackroute/repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="75">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
@@ -502,6 +779,27 @@
             <element signature="imports" expanded="true" />
             <element signature="e#935#936#0" expanded="true" />
             <element signature="e#981#982#0" expanded="true" />
+=======
+        <state relative-caret-position="60">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TrackServices/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TrackServices/src/main/java/com/stackroute/repository/MuzixRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+>>>>>>> 88fc3975dec0e715bc4bfcb616aa45c9b45f35c7
           </folding>
         </state>
       </provider>
@@ -509,6 +807,7 @@
   </component>
   <component name="masterDetails">
     <states>
+<<<<<<< HEAD
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -532,6 +831,8 @@
           </splitter-proportions>
         </settings>
       </state>
+=======
+>>>>>>> 88fc3975dec0e715bc4bfcb616aa45c9b45f35c7
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>11</last-edited>
@@ -544,6 +845,7 @@
           </splitter-proportions>
         </settings>
       </state>
+<<<<<<< HEAD
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -555,6 +857,8 @@
           </splitter-proportions>
         </settings>
       </state>
+=======
+>>>>>>> 88fc3975dec0e715bc4bfcb616aa45c9b45f35c7
     </states>
   </component>
 </project>
