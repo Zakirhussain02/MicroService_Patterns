@@ -45,7 +45,7 @@ public class UserController extends ResponseEntityExceptionHandler {
     //Method to perform PUT operation
     @PutMapping("User/{trackId}")
     public ResponseEntity<?> updateUser(@PathVariable int userId,@RequestBody User User) throws UserNotFoundException{
-        userService.updateUser(trackId,User.getComment());
+        userService.updateUser(userId,User.getComment());
         return new ResponseEntity<String>("Successfully updated", HttpStatus.FOUND);
     }
 
