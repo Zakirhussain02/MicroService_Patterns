@@ -6,6 +6,8 @@ package com.stackroute.controller;
 import com.stackroute.domain.User;
 import com.stackroute.exceptions.UserAlreadyExistsException;
 import com.stackroute.exceptions.UserNotFoundException;
+import com.stackroute.service.UserService;
+import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -25,7 +27,7 @@ public class UserController extends ResponseEntityExceptionHandler {
     //Autowired constructor
     @Autowired
     public UserController(UserService userService) {
-        this.userService = UserService;
+        this.userService = userService;
     }
 
 
@@ -44,8 +46,8 @@ public class UserController extends ResponseEntityExceptionHandler {
 
     //Method to perform PUT operation
     @PutMapping("User/{trackId}")
-    public ResponseEntity<?> updateUser(@PathVariable int userId,@RequestBody User User) throws UserNotFoundException{
-        userService.updateUser(userId,User.getComment());
+    public ResponseEntity<?> updateUser(@PathVariable int userId,@RequestBody User user) throws UserNotFoundException{
+        userService.updateUser(userId, user.getUserName());
         return new ResponseEntity<String>("Successfully updated", HttpStatus.FOUND);
     }
 
@@ -57,12 +59,13 @@ public class UserController extends ResponseEntityExceptionHandler {
     }
 
     @GetMapping("User/{trackId}")
-    public ResponseEntity<?> getById(@PathVariable int UserId) throws UserNotFoundException {
-        return new ResponseEntity (userService.trackByTrackId(userId), HttpStatus.OK);
+    public ResponseEntity<?> getByUserId(@PathVariable int userId) throws UserNotFoundException {
+        return new ResponseEntity (userService.getByUserId(userId), HttpStatus.OK);
     }
-    //Mehtod to User by name
+    //Mehtod to User by NAME
     @GetMapping("Users/{trackName}")
-    public ResponseEntity<?> getByName(@PathVariable String trackName) throws UserNotFoundException {
-        return new ResponseEntity<List<User>>(userService.UserByTrackName(userName), HttpStatus.OK);
+    public ResponseEntity<?> getByUserName(@PathVariable String userName) throws UserNotFoundException {
+        return new ResponseEntity <String>("User Name is identified", HttpStatus.FOUND);
     }
+
 }
