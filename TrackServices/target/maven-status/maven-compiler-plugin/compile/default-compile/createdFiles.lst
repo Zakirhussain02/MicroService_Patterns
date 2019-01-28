@@ -1,6 +1,0 @@
-com/stackroute/domain/Muzix.class
-com/stackroute/domain/Muzix$MuzixBuilder.class
-com/stackroute/exceptions/MuzixAlreadyExistsException.class
-com/stackroute/exceptions/MuzixNotFoundException.class
-com/stackroute/service/MuzixService.class
-com/stackroute/controller/MuzixController.class
