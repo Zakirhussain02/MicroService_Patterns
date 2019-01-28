@@ -17,7 +17,7 @@ import java.util.Optional;
 public class MuzixServiceImpl implements MuzixService {
 
     //Created a variable of MuzixRepository
-    MuzixRepository muzixRepository;
+    private MuzixRepository muzixRepository;
 
     //Autowired the constructor
     @Autowired
@@ -32,12 +32,18 @@ public class MuzixServiceImpl implements MuzixService {
                throw new MuzixAlreadyExistsException("Track already exists");
            }
            Muzix savedMuzix = muzixRepository.save(muzix);
+           if(savedMuzix==null){
+               throw new MuzixAlreadyExistsException("Track already exists");
+           }
            return savedMuzix;
     }
 
     //Overriden method to get all the muzixs
     @Override
-    public List<Muzix> getAllMuzixs() {
+    public List<Muzix> getAllMuzixs() throws MuzixNotFoundException{
+        if (muzixRepository.findAll().isEmpty()) {
+            throw new MuzixNotFoundException("No tracks available");
+        }
         return muzixRepository.findAll();
     }
 
@@ -54,17 +60,18 @@ public class MuzixServiceImpl implements MuzixService {
         Muzix savedMuzix = muzixRepository.save(muzix1);
         return savedMuzix;
     }
+
     //Overriden method to remove the muzix
     @Override
-    public Muzix removeMuzix(int trackId) throws MuzixNotFoundException{
+    public List<Muzix> removeMuzix(int trackId) throws MuzixNotFoundException{
         if(!muzixRepository.existsById(trackId)){
             throw new MuzixNotFoundException("Track not found");
         }
-
-        muzixRepository.delete(trackId);
-        return deletedMuzix;
+       muzixRepository.deleteById(trackId);
+        return muzixRepository.findAll();
     }
 
+    //Overriden method to track by id
     @Override
     public Muzix trackByTrackId(int trackId) throws MuzixNotFoundException {
         if (muzixRepository.findById(trackId).isEmpty()) {

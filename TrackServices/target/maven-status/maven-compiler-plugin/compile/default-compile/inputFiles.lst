@@ -1,0 +1,10 @@
+/home/user/microServices/TrackServices/src/main/java/com/stackroute/service/MuzixServiceImpl.java
+/home/user/microServices/TrackServices/src/main/java/com/stackroute/controller/MuzixController.java
+/home/user/microServices/TrackServices/src/main/java/com/stackroute/service/MuzixService.java
+/home/user/microServices/TrackServices/src/main/java/com/stackroute/exceptions/GlobalExceptionController.java
+/home/user/microServices/TrackServices/src/main/java/com/stackroute/MuzixApplication.java
+/home/user/microServices/TrackServices/src/main/java/com/stackroute/domain/Muzix.java
+/home/user/microServices/TrackServices/src/main/java/com/stackroute/config/WebConfiguration.java
+/home/user/microServices/TrackServices/src/main/java/com/stackroute/repository/MuzixRepository.java
+/home/user/microServices/TrackServices/src/main/java/com/stackroute/exceptions/MuzixNotFoundException.java
+/home/user/microServices/TrackServices/src/main/java/com/stackroute/exceptions/MuzixAlreadyExistsException.java
