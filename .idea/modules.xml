@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
+      <module fileurl="file://$PROJECT_DIR$/.idea/MicroService_Patterns.iml" filepath="$PROJECT_DIR$/.idea/MicroService_Patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TrackServices/muzixapplication.iml" filepath="$PROJECT_DIR$/TrackServices/muzixapplication.iml" />
+=======
       <module fileurl="file://$PROJECT_DIR$/.idea/microServices.iml" filepath="$PROJECT_DIR$/.idea/microServices.iml" />
+>>>>>>> 88fc3975dec0e715bc4bfcb616aa45c9b45f35c7
     </modules>
   </component>
 </project>

@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="60a036b8-18dc-4f9c-87cc-d322369a6424" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/stackroute/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/stackroute/controller/UserController.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/TrackServices/target/" />
+=======
     <list default="true" id="f225b38f-8525-40ac-a37c-03439118a1bb" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
@@ -8,6 +15,7 @@
       <change beforePath="$PROJECT_DIR$/TrackServices/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TrackServices/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TrackServices/src/main/java/com/stackroute/repository/MuzixRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/TrackServices/src/main/java/com/stackroute/repository/MuzixRepository.java" afterDir="false" />
     </list>
+>>>>>>> 88fc3975dec0e715bc4bfcb616aa45c9b45f35c7
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,15 +25,69 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/TrackServices/src/main/java/com/stackroute/config/WebConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TrackServices/src/main/java/com/stackroute/domain/Muzix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+=======
         <entry file="file://$PROJECT_DIR$/UserService/src/main/java/com/stackroute/repository/UserRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+>>>>>>> 88fc3975dec0e715bc4bfcb616aa45c9b45f35c7
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/UserService/src/main/java/com/stackroute/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="12">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#935#936#0" expanded="true" />
+                <element signature="e#981#982#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UserService/src/main/java/com/stackroute/repository/UserRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UserService/src/main/java/com/stackroute/exceptions/GlobalExceptions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+=======
         <entry file="file://$PROJECT_DIR$/TrackServices/src/main/java/com/stackroute/repository/MuzixRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -33,25 +95,67 @@
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
+>>>>>>> 88fc3975dec0e715bc4bfcb616aa45c9b45f35c7
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TrackServices/pom.xml">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/TrackServices/src/main/java/com/stackroute/controller/MuzixController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+            <state relative-caret-position="150">
+              <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TrackServices/src/main/java/com/stackroute/exceptions/GlobalExceptionController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="28" selection-start-line="15" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UserService/src/main/java/com/stackroute/exceptions/UserAlreadyExistsException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+=======
+        <entry file="file://$PROJECT_DIR$/TrackServices/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+>>>>>>> 88fc3975dec0e715bc4bfcb616aa45c9b45f35c7
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/UserService/src/main/java/com/stackroute/exceptions/UserNotFoundException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TrackServices/src/main/java/com/stackroute/exceptions/MuzixNotFoundException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+=======
         <entry file="file://$PROJECT_DIR$/UserService/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+>>>>>>> 88fc3975dec0e715bc4bfcb616aa45c9b45f35c7
             </state>
           </provider>
         </entry>
@@ -67,8 +171,16 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+<<<<<<< HEAD
+      <find>Muzix</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>User</replace>
+    </replaceStrings>
+=======
       <find>mongo</find>
     </findStrings>
+>>>>>>> 88fc3975dec0e715bc4bfcb616aa45c9b45f35c7
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,6 +188,191 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/UserService/src/main/java/com/stackroute/exceptions/UserNotFoundException.java" />
+        <option value="$PROJECT_DIR$/UserService/src/main/java/com/stackroute/exceptions/UserAlreadyExistsException.java" />
+        <option value="$PROJECT_DIR$/UserService/src/main/java/com/stackroute/exceptions/GlobalExceptions.java" />
+        <option value="$PROJECT_DIR$/UserService/src/main/java/com/stackroute/controller/UserController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="UserService" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="UserService" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="717" />
+    <option name="y" value="28" />
+    <option name="width" value="589" />
+    <option name="height" value="616" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MicroService_Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MicroService_Patterns" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MicroService_Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MicroService_Patterns" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MicroService_Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MicroService_Patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="TrackServices" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MicroService_Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MicroService_Patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="TrackServices" type="462c0819:PsiDirectoryNode" />
+              <item name=".mvn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MicroService_Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MicroService_Patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="TrackServices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MicroService_Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MicroService_Patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="TrackServices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MicroService_Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MicroService_Patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="TrackServices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MicroService_Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MicroService_Patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="TrackServices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stackroute" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MicroService_Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MicroService_Patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="TrackServices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stackroute" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MicroService_Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MicroService_Patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="TrackServices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stackroute" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MicroService_Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MicroService_Patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="TrackServices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stackroute" type="462c0819:PsiDirectoryNode" />
+              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MicroService_Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MicroService_Patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="UserService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MicroService_Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MicroService_Patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="UserService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MicroService_Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MicroService_Patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="UserService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MicroService_Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MicroService_Patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="UserService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MicroService_Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MicroService_Patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="UserService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stackroute" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MicroService_Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MicroService_Patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="UserService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stackroute" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MicroService_Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MicroService_Patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="UserService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stackroute" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MicroService_Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MicroService_Patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="UserService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stackroute" type="462c0819:PsiDirectoryNode" />
+              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
+=======
         <option value="$PROJECT_DIR$/UserService/pom.xml" />
         <option value="$PROJECT_DIR$/UserService/src/main/java/com/stackroute/repository/UserRepository.java" />
         <option value="$PROJECT_DIR$/TrackServices/pom.xml" />
@@ -234,6 +531,7 @@
               <item name="microServices" type="b2602c69:ProjectViewProjectNode" />
               <item name="microServices" type="462c0819:PsiDirectoryNode" />
               <item name="UserService" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 88fc3975dec0e715bc4bfcb616aa45c9b45f35c7
             </path>
           </expand>
           <select />
@@ -242,9 +540,17 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548661071059" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/TrackServices/pom.xml" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+=======
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548659889891" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+>>>>>>> 88fc3975dec0e715bc4bfcb616aa45c9b45f35c7
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -263,28 +569,70 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
+      <changelist id="60a036b8-18dc-4f9c-87cc-d322369a6424" name="Default Changelist" comment="" />
+      <created>1548659003546</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548659003546</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Exceptions">
+      <created>1548660633739</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548660633739</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Exceptions">
+      <created>1548660704880</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1548660704880</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Exceptions">
+      <created>1548661044181</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1548661044181</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+=======
       <changelist id="f225b38f-8525-40ac-a37c-03439118a1bb" name="Default Changelist" comment="" />
       <created>1548659094481</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548659094481</updated>
     </task>
+>>>>>>> 88fc3975dec0e715bc4bfcb616aa45c9b45f35c7
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+<<<<<<< HEAD
+=======
     <editor active="true" />
+>>>>>>> 88fc3975dec0e715bc4bfcb616aa45c9b45f35c7
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
+<<<<<<< HEAD
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24980047" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32899022" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.49960095" visible="true" weight="0.32899022" />
+      <window_info active="true" anchor="bottom" id="Event Log" sideWeight="0.50039905" side_tool="true" visible="true" weight="0.32899022" />
+=======
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980047" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" weight="0.32899022" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+>>>>>>> 88fc3975dec0e715bc4bfcb616aa45c9b45f35c7
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -294,13 +642,82 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Theme Preview" />
+<<<<<<< HEAD
+      <window_info anchor="right" id="Maven" weight="0.32960895" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+=======
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Maven" />
+>>>>>>> 88fc3975dec0e715bc4bfcb616aa45c9b45f35c7
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+<<<<<<< HEAD
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exceptions" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/TrackServices/src/main/java/com/stackroute/config/WebConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TrackServices/src/main/java/com/stackroute/domain/Muzix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TrackServices/src/main/java/com/stackroute/exceptions/MuzixNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserService/src/main/java/com/stackroute/exceptions/UserNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserService/src/main/java/com/stackroute/exceptions/UserAlreadyExistsException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TrackServices/src/main/java/com/stackroute/exceptions/GlobalExceptionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="28" selection-start-line="15" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserService/src/main/java/com/stackroute/exceptions/GlobalExceptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+=======
     <layout-to-restore>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
@@ -334,11 +751,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+>>>>>>> 88fc3975dec0e715bc4bfcb616aa45c9b45f35c7
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/UserService/src/main/java/com/stackroute/repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="75">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TrackServices/src/main/java/com/stackroute/controller/MuzixController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserService/src/main/java/com/stackroute/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#935#936#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+=======
         <state relative-caret-position="60">
           <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
         </state>
@@ -358,6 +799,7 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
+>>>>>>> 88fc3975dec0e715bc4bfcb616aa45c9b45f35c7
           </folding>
         </state>
       </provider>
@@ -365,6 +807,32 @@
   </component>
   <component name="masterDetails">
     <states>
+<<<<<<< HEAD
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+=======
+>>>>>>> 88fc3975dec0e715bc4bfcb616aa45c9b45f35c7
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>11</last-edited>
@@ -377,6 +845,20 @@
           </splitter-proportions>
         </settings>
       </state>
+<<<<<<< HEAD
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+=======
+>>>>>>> 88fc3975dec0e715bc4bfcb616aa45c9b45f35c7
     </states>
   </component>
 </project>
