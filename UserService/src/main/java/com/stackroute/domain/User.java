@@ -10,6 +10,8 @@ import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.util.Date;
+
 
 @Document
 @Data
@@ -23,6 +25,6 @@ public class User {
     private int userId;
     private String userName;
     private String userGender;
-    private int userDOB;
+    private Date userDOB;
 
 }
