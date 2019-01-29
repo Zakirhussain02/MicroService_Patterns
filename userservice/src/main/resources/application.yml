@@ -14,12 +14,4 @@ spring:
     name: user-service
   cloud:
     config:
-<<<<<<< HEAD
       uri: http://localhost:8888
-=======
-<<<<<<< HEAD
-      uri: http://localhost:8888
-=======
-      uri: http://localhost:8099
->>>>>>> 9b91967e24708380d0922b05e27b77443f10cbbe
->>>>>>> 7ebc24e33e49b7a3c6e129d73f64ceaa63fb8eda
