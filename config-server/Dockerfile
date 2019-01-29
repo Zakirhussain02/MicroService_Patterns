@@ -1,5 +1,5 @@
 FROM openjdk:11
-ADD ./target/config-server-0.0.1-SNAPSHOT.jar /usr/src/config-server-0.0.1-SNAPSHOT.jar
-EXPOSE 8099
+ADD ./target/Config-Server-0.0.1-SNAPSHOT.jar /usr/src/Config-Server-0.0.1-SNAPSHOT.jar
+EXPOSE 8888
 WORKDIR usr/src
-ENTRYPOINT ["java","-jar","config-server-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java","-jar","Config-Server-0.0.1-SNAPSHOT.jar"]
