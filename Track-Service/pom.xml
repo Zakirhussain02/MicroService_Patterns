@@ -34,6 +34,7 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-config</artifactId>
+		<version> 2.1.0.RELEASE</version>
 		</dependency>
 
 		<dependency>
@@ -137,4 +138,18 @@
 			</plugin>
 		</plugins>
 	</build>
+<<<<<<< HEAD
+=======
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-dependencies</artifactId>
+				<version> RELEASE</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+>>>>>>> 6742420b7950cf06afe739cce904b09b80cf18ab
 </project>
