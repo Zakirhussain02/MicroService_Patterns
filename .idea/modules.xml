@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/MicroService_Patterns.iml" filepath="$PROJECT_DIR$/.idea/MicroService_Patterns.iml" />
-      <module fileurl="file://$PROJECT_DIR$/TrackServices/muzixapplication.iml" filepath="$PROJECT_DIR$/TrackServices/muzixapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Track-Service/muzixapplication.iml" filepath="$PROJECT_DIR$/Track-Service/muzixapplication.iml" />
     </modules>
   </component>
 </project>
