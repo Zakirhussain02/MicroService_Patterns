@@ -39,9 +39,9 @@ services:
       - mongo
       - config-server
     ports:
-      - "8085:8085"
+      - "8083:8083"
     expose:
-      - 8085
+      - 8083
 
   user-service:
     image: userservice
@@ -53,9 +53,9 @@ services:
       - mongo
       - config-server
     ports:
-      - "8090:8090"
+      - "8085:8085"
     expose:
-      - 8090
+      - 8085
 
   zuulgatewayproxy:
     image: zuulgatewayproxy

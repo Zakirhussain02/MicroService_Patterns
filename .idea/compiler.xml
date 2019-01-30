@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Config-Server" />
         <module name="Music-Eruka-Server" />
+        <module name="muzixApp" />
         <module name="muzixapplication" />
         <module name="userservice" />
         <module name="zuulgatewayproxy" />
@@ -18,6 +19,7 @@
       <module name="Config-Server" target="1.8" />
       <module name="MicroService_Patterns" target="11" />
       <module name="Music-Eruka-Server" target="11" />
+      <module name="muzixApp" target="11" />
       <module name="muzixapplication" target="11" />
       <module name="userservice" target="11" />
       <module name="zuulgatewayproxy" target="11" />
@@ -28,6 +30,7 @@
       <module name="Config-Server" options="-parameters" />
       <module name="MicroService_Patterns" options="-parameters" />
       <module name="Music-Eruka-Server" options="-parameters" />
+      <module name="muzixApp" options="-parameters" />
       <module name="muzixapplication" options="-parameters" />
       <module name="userservice" options="-parameters" />
       <module name="zuulgatewayproxy" options="-parameters" />

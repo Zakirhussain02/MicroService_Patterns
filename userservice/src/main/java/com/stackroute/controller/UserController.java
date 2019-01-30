@@ -32,38 +32,38 @@ public class UserController extends ResponseEntityExceptionHandler {
 
 
     //Method to perform POST operation
-    @PostMapping("User")
+    @PostMapping("user")
     public ResponseEntity<?> saveUser(@RequestBody User User) throws UserAlreadyExistsException{
         userService.saveUser(User);
         return new ResponseEntity<String>("Successfully Created", HttpStatus.CREATED);
     }
 
     //Method to perform GET operation
-    @GetMapping("User")
+    @GetMapping("user")
     public ResponseEntity<?> getAllUsers() throws UserNotFoundException {
         return new ResponseEntity<List<User>>(userService.getAllUsers(), HttpStatus.OK);
     }
 
     //Method to perform PUT operation
-    @PutMapping("User/{trackId}")
+    @PutMapping("user/{trackId}")
     public ResponseEntity<?> updateUser(@PathVariable int userId,@RequestBody User user) throws UserNotFoundException{
         userService.updateUser(userId, user.getUserName());
         return new ResponseEntity<String>("Successfully updated", HttpStatus.FOUND);
     }
 
     //Method to perform DELETE operation
-    @DeleteMapping("User/{trackId}")
+    @DeleteMapping("user/{trackId}")
     public ResponseEntity<?> deleteUser(@PathVariable int userId) throws UserNotFoundException{
         userService.removeUser(userId);
         return new ResponseEntity<String>("Successfully Deleted", HttpStatus.ACCEPTED);
     }
 
-    @GetMapping("User/{trackId}")
+    @GetMapping("user/{trackId}")
     public ResponseEntity<?> getByUserId(@PathVariable int userId) throws UserNotFoundException {
         return new ResponseEntity (userService.getByUserId(userId), HttpStatus.OK);
     }
     //Mehtod to User by NAME
-    @GetMapping("Users/{trackAge}")
+    @GetMapping("users/{trackAge}")
     public ResponseEntity<?> validUserAge(@PathVariable int userId) throws UserNotFoundException {
         return new ResponseEntity <Boolean>(userService.validUserAge(userId), HttpStatus.FOUND);
     }
